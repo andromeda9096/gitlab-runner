@@ -7,7 +7,7 @@ gitlab-runner register \
 --non-interactive \
 --url CHANGEME \
 --registration-token CHANGEME \
---executor docker \
+--executor shell \
 --description "CHANGEME" \
 --docker-image "gitlab/gitlab-runner:alpine" \
 --docker-volumes /var/run/docker.sock:/var/run/docker.sock
